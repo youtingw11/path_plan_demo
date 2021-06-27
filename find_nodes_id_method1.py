@@ -101,7 +101,7 @@ def find_intersection(ids: list) -> list :
 
 
 #利用google geocoding api 找到起始位置及末位置之經緯度
-gmaps = googlemaps.Client(key='AIzaSyBY5Sd15sFNNGFm4KVnBwd6U_n9jDFptgY')
+gmaps = googlemaps.Client(key=' ')
 
 geocode_origin = gmaps.geocode('taiwan 10617')
 geocode_destination = gmaps.geocode('taipei train station')
