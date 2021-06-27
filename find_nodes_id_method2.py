@@ -47,7 +47,7 @@ def find_intersection(ids: list) -> list :
     return intersection
 
 #initial data setting
-gmaps = googlemaps.Client(key='AIzaSyBY5Sd15sFNNGFm4KVnBwd6U_n9jDFptgY')
+gmaps = googlemaps.Client(key=' ')
 geocode_origin = gmaps.geocode('taiwan 10617')
 geocode_destination = gmaps.geocode('taipei train station')
 print('Address of starting point: '+ geocode_origin[0]["formatted_address"]) 
