@@ -264,7 +264,7 @@ step_num_list2, confilct_list2, conflict_index_list2, turn_list2 = way_to_confli
 
 #print result
 # get info. from google maps
-gmaps = googlemaps.Client(key='AIzaSyBY5Sd15sFNNGFm4KVnBwd6U_n9jDFptgY')
+gmaps = googlemaps.Client(key=' ')
 geocode_origin = gmaps.geocode('taiwan 10617')
 geocode_destination = gmaps.geocode('taipei train station')
 address_and_coor = [geocode_origin[0]["formatted_address"],\
